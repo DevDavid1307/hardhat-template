@@ -6,6 +6,7 @@
 -   [Waffle](https://github.com/EthWorks/Waffle): 编写合约测试
 -   [Solcover](https://github.com/sc-forks/solidity-coverage): 测试覆盖率
 -   [Prettier Plugin](https://github.com/prettier-solidity/prettier-plugin-solidity): 代码美化, 可以和 solhint 整合
+-   [Commitlint](https://commitlint.js.org/#/guides-local-setup?id=install-husky): git commit message 格式规范
 
 # 参考文章和项目
 

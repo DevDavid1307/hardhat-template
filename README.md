@@ -36,5 +36,5 @@
 # TODO
 
 -   [ ] solcover 覆盖率配置
--   [] 优化 tsconfig 配置
--   [] 优化 hardhat.config.ts 配置
+-   [ ] 优化 tsconfig 配置
+-   [ ] 优化 hardhat.config.ts 配置

@@ -5,6 +5,10 @@ import '@nomiclabs/hardhat-ethers'
 import '@nomiclabs/hardhat-solhint'
 import { HardhatUserConfig } from 'hardhat/types'
 
+// load task
+import './tasks/accounts'
+import './tasks/deploy'
+
 // hardhat config
 const config: HardhatUserConfig = {
     solidity: {
@@ -13,6 +17,12 @@ const config: HardhatUserConfig = {
     typechain: {
         outDir: 'src/types',
         target: 'ethers-v5',
+    },
+    networks: {
+        hardhat: {},
+        ganache: {
+            url: 'http://127.0.0.1:7545',
+        },
     },
 }
 

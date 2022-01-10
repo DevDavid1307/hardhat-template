@@ -25,8 +25,9 @@
 
 # VSCode 插件
 
--   Solidity: Solidity 语言支持
--   Test Explorer UI: Mocha 测试 UI
+-   [Solidity](https://marketplace.visualstudio.com/items?itemName=JuanBlanco.solidity): Solidity 语言支持
+-   [Test Explorer UI](https://marketplace.visualstudio.com/items?itemName=hbenl.vscode-test-explorer): 左侧测试 UI Tab
+-   [Mocha Test Explorer](https://marketplace.visualstudio.com/items?itemName=hbenl.vscode-mocha-test-adapter): 配合 Test Explorer UI 使用
 
 # Tips
 

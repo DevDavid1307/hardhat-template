@@ -3,8 +3,6 @@ import { ethers, waffle } from 'hardhat'
 import type { Greeter } from '../../src/types/Greeter'
 import HelloArtifact from '../../artifacts/contracts/Greeter.sol/Greeter.json'
 
-const { deployContract } = waffle
-
 describe('Greeter', () => {
     it('Print Message', async () => {
         const str = 'Hello World'
@@ -13,7 +11,7 @@ describe('Greeter', () => {
         const signers = await ethers.getSigners()
 
         // 部署合约
-        const greeter = <Greeter>await deployContract(signers[0], HelloArtifact, [str])
+        const greeter = <Greeter>await waffle.deployContract(signers[0], HelloArtifact, [str])
 
         // 部署完毕
         await greeter.deployed()

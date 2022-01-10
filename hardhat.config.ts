@@ -1,4 +1,5 @@
 import '@typechain/hardhat'
+import 'hardhat-gas-reporter'
 import '@nomiclabs/hardhat-waffle'
 import '@nomiclabs/hardhat-ethers'
 import '@nomiclabs/hardhat-solhint'

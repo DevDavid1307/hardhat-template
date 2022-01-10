@@ -32,3 +32,9 @@
 # Tips
 
 -   vscode 中格式化如果没反应，随便找个文件，运行 Format 命令，会提示选择 Format 工具
+
+# TODO
+
+-   [] solcover 覆盖率配置
+-   [] 优化 tsconfig 配置
+-   [] 优化 hardhat.config.ts 配置

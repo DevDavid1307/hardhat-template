@@ -7,7 +7,7 @@ import { HardhatUserConfig } from 'hardhat/types'
 
 // load task
 import './tasks/accounts'
-import './tasks/deploy'
+import './tasks/greeter'
 
 // hardhat config
 const config: HardhatUserConfig = {

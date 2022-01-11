@@ -2,7 +2,7 @@ import { task } from 'hardhat/config'
 
 import { Greeter__factory } from '../../src/types/factories/Greeter__factory'
 
-task('deploy:greeter')
+task('greeter:set-greeting')
     .addParam('address', 'contract address')
     .addParam('greeting', 'Say hello')
     .setAction(async ({ address, greeting }, { ethers }) => {

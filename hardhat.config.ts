@@ -11,6 +11,7 @@ import './tasks/greeter'
 
 // hardhat config
 const config: HardhatUserConfig = {
+    defaultNetwork: 'ganache',
     solidity: {
         compilers: [{ version: '0.8.6' }],
     },

@@ -1,5 +1,7 @@
-# 用到的开发包
+# 用到的工具
 
+-   [Hardhat](https://hardhat.org/): 合约开发框架
+-   [Foundry](https://github.com/foundry-rs/foundry): 合约开发框架
 -   [TypeChain](https://github.com/ethereum-ts/TypeChain): 合约生成 TS 类型，方便调用的时候提示
 -   [Solhint](https://github.com/protofire/solhint): linter
 -   [EthersJS](https://github.com/ethers-io/ethers.js/): web3 工具包
@@ -7,6 +9,13 @@
 -   [Solcover](https://github.com/sc-forks/solidity-coverage): 测试覆盖率
 -   [Prettier Plugin](https://github.com/prettier-solidity/prettier-plugin-solidity): 代码美化, 可以和 solhint 整合
 -   [Commitlint](https://commitlint.js.org/#/guides-local-setup?id=install-husky): git commit message 格式规范
+
+# Hardhat 和 Foundry
+
+-   Foundry 底层用 Rust 实现，编译和测试比 Hardhat 快几倍
+-   Foundry 还在发展中，未来会集成 fmt、coverage。。。
+-   Foundry 可以用 solidity 写单元测试
+-   暂时可以 2 个框架配合使用，Hardhat 写一些 task、集成测试，格式化也先用 prettier
 
 # 参考文章和项目
 

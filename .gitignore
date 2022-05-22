@@ -3,6 +3,7 @@ node_modules/
 .vscode/
 coverage/
 coverage.json
+.yarn
 
 #Hardhat files
 cache/
